@@ -1,0 +1,232 @@
+ 2025  cd project-3-drminix
+ 2026  ls
+ 2027  docker-compose ps
+ 2028  docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2029  docker-compose down
+ 2030  docker-compose start
+ 2031  docker-compose up -d
+ 2032  docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2033  ls
+ 2034  cd ..
+ 2035  ls
+ 2036  cd
+ 2037  cd projects
+ 2038  ls
+ 2039  git clone git@github.com:mids-w205-schioberg/course-content.git
+ 2040  cd course-content
+ 2041  ls
+ 2042  cd ..
+ 2043  ls
+ 2044  docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2045  git clone git@github.com:mids-w205-schioberg/project-1-drminix.git
+ 2046  git clone git@github.com:mids-w205-schioberg/project-2-drminix.git
+ 2047  ls
+ 2048  mv course-content w205
+ 2049  cd ..
+ 2050  ls
+ 2051  docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2052  source /home/sam/miniconda3/bin/activate
+ 2053  conda activate avatarify
+ 2054  /home/sam/miniconda3/envs/avatarify/bin/python
+ 2055  cd projects
+ 2056  ls
+ 2057  cd project-3
+ 2058  cd ..
+ 2059  cd w205
+ 2060  dir
+ 2061  cd project-3-drminix
+ 2062  ls
+ 2063  docker-compose down
+ 2064  docker-compose up -d
+ 2065  docker-compose down
+ 2066  docker-compose up -d
+ 2067  docker-compose logs spark
+ 2068  docker-compose down
+ 2069  docker-compose up -d
+ 2070  docker-compose logs spark
+ 2071  cd w205
+ 2072  ls
+ 2073  cd project-3-drminix
+ 2074  ls
+ 2075  code .
+ 2076  ls
+ 2077  jupyter notebook
+ 2078  docker-compose up -d
+ 2079  docker-compose down
+ 2080  docker-compose up -d
+ 2081  docker-compose down
+ 2082  docker-compose up -d
+ 2083  jupyter notebook
+ 2084  docker-compose exec mids bash /w205/project-3-drminix/generate_events.sh
+ 2085  docker-compose
+ 2086  docker-compose exec mids bash /w205/project-3-drminix/generate_events.sh
+ 2087  bash generate_events.sh
+ 2088  ls
+ 2089  ls user1_sword1.json
+ 2090  bash generate_events.sh
+ 2091  chmod +x generate_events.sh
+ 2092  ./generate_events.sh
+ 2093  bash generate_events.sh
+ 2094  ls ~/w205/project-3-drminix/user1_sword1.json
+ 2095  bash generate_events.sh
+ 2096  docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2097  bash generate_events.sh
+ 2098* ls
+ 2099* mv write_swords_stream.py write_spark_stream.py
+ 2100* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2101* ls
+ 2102* docker-compose exec clloudera hadoop fs -ls /tmp/
+ 2103* docker-compose exec cloudera hadoop fs -ls /tmp/
+ 2104* docker-compose exec spark spark-submit /w205/full-stack2/write_hive_table.py
+ 2105* docker-compose exec spark spark-submit /w205/project-3-drminix/write_hive_table.py
+ 2106* history
+ 2107* docker-compose exec presto presto --server presto:8080 --catalog hive --schema default
+ 2108* ls
+ 2109* docker-compose exec cloudera hadoop fs -ls /tmp/
+ 2110  docker-compose exec presto presto --server presto:8080 --catalog hive --schema default
+ 2111* docker-compose exec spark spark-submit /w205/project-3-drminix/write_hive_table.py
+ 2112* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2113* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2114* docker-compose exec spark spark-submit /w205/project-3-drminix/write_hive_table.py
+ 2115  docker-compose exec presto presto --server presto:8080 --catalog hive --schema default
+ 2116* bash generate_events.sh
+ 2117* docker-compose exec mids kafkacat -C -b kafka:29092 -t events -o beginning -e
+ 2118* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2119* bash generate_events.sh
+ 2120* docker-compose exec mids kafkacat -C -b kafka:29092 -t events -o beginning -e
+ 2121* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2122* docker-compose exec mids kafkacat -C -b kafka:29092 -t events -o beginning -e
+ 2123* bash generate_events.sh
+ 2124* docker-compose exec mids ab -d "/w205/project-3-drminix/user1_sword1.json" -T application/json -n 1000  http://localhost:5000/sword
+ 2125* bash generate_events.sh
+ 2126* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2127* bash generate_events.sh
+ 2128* ls
+ 2129* docker-compose exec mids ab
+ 2130* bash generate_events.sh
+ 2131* source /home/sam/miniconda3/bin/activate
+ 2132* conda activate avatarify
+ 2133* /home/sam/miniconda3/envs/avatarify/bin/python
+ 2134* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2135* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2136* docker-compose exec spark spark-submit /w205/project-3-drminix/write_hive_table.py
+ 2137* docker-compose down
+ 2138* docker-compose up -d
+ 2139* docker-compose exec spark spark-submit /w205/project-3-drminix/write_hive_table.py
+ 2140* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2141* docker-compose down
+ 2142* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2143* docker-compose up -d
+ 2144* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2145* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2146* bash generate_events.sh
+ 2147* docker-compose exec spark spark-submit /w205/project-3-drminix/write_hive_table.py
+ 2148  docker-compose exec presto presto --server presto:8080 --catalog hive --schema default
+ 2149* Postman
+ 2150* ls
+ 2151* mkdir img
+ 2152* cd img
+ 2153* mv ../overview.png
+ 2154* mv ../overview.png .
+ 2155* cp ~/Pictures/postman.png .
+ 2156* ls
+ 2157* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2158* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2159* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2160* ls
+ 2161* docker .
+ 2162* ls
+ 2163* docker-compose down
+ 2164* docker-compose -build
+ 2165* docker-compose build
+ 2166* docker-compose up -d
+ 2167* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2168* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2169* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2170* bash generate_events.sh
+ 2171* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2172* docker-copmose down
+ 2173* docker-compose down
+ 2174* docker-compose up -d 
+ 2175* docker-compose down
+ 2176* docker-compose build
+ 2177* docker-compose up -d
+ 2178* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2179* docker-compose build
+ 2180* docker-compose up -d
+ 2181* docker-compose down
+ 2182* docker-compose up -d
+ 2183* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2184* docker-compose spark exec bash
+ 2185* docker-compose exec spark bash
+ 2186* docker-compose build
+ 2187* docker-compose up -d
+ 2188* docker-compose down
+ 2189* docker-compose up -d
+ 2190* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2191* docker-compose exec spark bash
+ 2192* docker-compose up -d
+ 2193* docker-compose down
+ 2194* docker-compose build
+ 2195* docker-compose down
+ 2196* docker-compose build
+ 2197* apt-key adv --keyserver keyserver.ubuntu.com --recv E56151BF 
+ 2198* ping ww
+ 2199* apt-key adv --keyserver keyserver.ubuntu.com --recv E56151BF 
+ 2200* ping keyserver.ubuntu.com
+ 2201* ping www.google.com
+ 2202* docker-compose build
+ 2203* docker-compose up -d
+ 2204* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2205* bash generate_events.sh
+ 2206* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2207* docker-compose down
+ 2208* ls
+ 2209* touch Dockerfile
+ 2210* docker-compose build
+ 2211* docker-compose down
+ 2212* docker-compose up -d
+ 2213* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2214* bash generate_events.sh
+ 2215* docker-compose down
+ 2216* docker-compose up -d
+ 2217* bash generate_events.sh
+ 2218* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2219* ls
+ 2220* history
+ 2221* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2222* bash generate_events.sh
+ 2223* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2224* history
+ 2225* docker-compose exec spark spark-submit /w205/project-3-drminix/write_hive_table.py
+ 2226  docker-compose exec presto presto --server presto:8080 --catalog hive --schema default
+ 2227* docker-compose up down
+ 2228* docker-compose down
+ 2229* docker-compose up -d
+ 2230* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2231* cd ..
+ 2232* ls
+ 2233* history | grep flask
+ 2234* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2235* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2236* docker-compose exec spark spark-submit /w205/project-3-drminix/write_hive_table.py
+ 2237  docker-compose exec presto presto --server presto:8080 --catalog hive --schema default
+ 2238* bash generate_events.sh
+ 2239* bg
+ 2240* cd img
+ 2241* ls
+ 2242* cp ~/Pictures/status.png .
+ 2243* docker-compose down -d
+ 2244* docker-compose down 
+ 2245* ls
+ 2246* docker-compose build
+ 2247* docker-compose up -d
+ 2248  show tables;
+ 2249  history
+ 2250  docker-compose exec presto presto --server presto:8080 --catalog hive --schema default
+ 2251* docker-compose exec mids env FLASK_APP=/w205/project-3-drminix/game_api.py flask run --host 0.0.0.0
+ 2252* bash generate_events.sh
+ 2253* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2254* docker-compose exec spark spark-submit /w205/project-3-drminix/write_hive_table.py
+ 2255* docker-compose exec spark spark-submit /w205/project-3-drminix/write_spark_stream.py
+ 2256  ls
